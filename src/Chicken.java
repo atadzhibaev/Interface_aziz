@@ -38,4 +38,29 @@ public class Chicken implements Animal{
             System.out.println("Error occurred.");
         }
     }
+
+    @Override
+    public void printImage() {
+        System.out.println("");
+        System.out.println("⠀⢀⢬⡷⠛⡂");
+        System.out.println("⠀⡎⡳⣐⠊⢥⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠰⢻⠀⠩⠗⡄⠙⢆⠀⠀⠀⠀⠀⢀⡴⠚⠉⠀⠀⠀⠈⠑⠢⡀⠀⠀");
+        System.out.println("⠀⠰⣄⡘⠚⢀⠀⢸⠀⠀⠀⠀⢠⠏⠀⠀⠀⣀⠔⠒⠀⠒⢤⡈⢆⠀");
+        System.out.println("⢠⠊⠀⠀⠀⠀⡆⢸⠀⠀⠀⠀⡼⠀⠀⠀⠜⢋⡉⠀⢉⠢⡀⠹⡜⡄");
+        System.out.println("⡎⠀⠀⠀⠀⢠⠃⠘⣆⠀⠀⠀⡇⠀⠀⠀⠀⢉⣀⣉⡠⡙⢎⡆⢣⡇");
+        System.out.println("⡁⠀⠀⠀⡔⠁⠀⠀⠈⠉⠑⠒⠒⠤⡀⢀⡀⢬⢅⢂⠉⢧⠈⡷⢸⠃");
+        System.out.println("⡇⠀⠀⡌⡄⠀⠀⠀⠀⠀⠈⠄⠀⠀⠐⡄⠫⠫⡆⢻⠀⠈⠀⠁⠈⠀");
+        System.out.println("⠹⣄⠀⠀⢱⠀⠀⠀⠀⠀⠀⠈⠢⡀⠀⢸⢻⠀⠇⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠈⠳⣄⢄⠳⡀⠀⠀⠀⠀⠀⠀⠈⠲⣤⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠀⠀⠈⢇⠑⢎⠑⠒⠄⠤⠤⠤⡤⠒⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠀⠀⠀⠈⡆⠈⣆⠀⢸⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠀⠀⠀⠀⠘⡆⠘⢒⠚⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠀⢀⣠⣤⣤⢇⠆⢸⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+        System.out.println("⠀⠀⠈⠀⠠⠒⠛⢻⡧⠎⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+    }
+
+    @Override
+    public void makeMove() {
+        System.out.println("Chicken laid an egg!");
+    }
 }

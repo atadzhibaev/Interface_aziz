@@ -9,6 +9,7 @@ public class AnimalDriver {
         if (asnwer.equals("yes")) {
             Animal charlie = new Dog();
             charlie.makeSound();
+            charlie.makeMove();
         }
 
         System.out.print("Want to hear a cat meowing (yes/no) ? ");
@@ -16,13 +17,16 @@ public class AnimalDriver {
         if (asnwer.equals("yes")) {
             Animal kuzzi = new Cat();
             kuzzi.makeSound();
+            kuzzi.makeMove();
         }
 
         System.out.print("Want to hear a chicken cluck (yes/no) ? ");
         asnwer = scan.nextLine();
         if (asnwer.equals("yes")) {
             Animal chicken = new Chicken();
+            chicken.printImage();
             chicken.makeSound();
+            chicken.makeMove();
         }
     }
 }
