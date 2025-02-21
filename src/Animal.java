@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Animal {
+public interface Animal {
+    public void makeSound();
 }
