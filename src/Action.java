@@ -8,6 +8,7 @@ public class Action {
         asnwer = scan.nextLine();
         if (asnwer.equals("yes")) {
             Animal charlie = new Dog();
+            charlie.printImage();
             charlie.makeSound();
         }
 
@@ -15,7 +16,9 @@ public class Action {
         asnwer = scan.nextLine();
         if (asnwer.equals("yes")) {
             Animal kuzzi = new Cat();
+            kuzzi.printImage();
             kuzzi.makeSound();
         }
     }
+
 }

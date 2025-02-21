@@ -37,4 +37,12 @@ public class Cat implements Animal {
             System.out.println("Error occurred.");
         }
     }
+
+    @Override
+    public void printImage() {
+        System.out.println(" _._     _,-'\"\"`-._");
+        System.out.println("(,-.`._,'(       |\\`-/|");
+        System.out.println("    `-.-' \\ )-`( , o o)");
+        System.out.println("          `-    \\`_`\"'-");
+    }
 }
