@@ -9,7 +9,7 @@ public class Dog implements Animal {
             System.out.println("Loading the sound of a dog barking.");
 
             // Load the .wav file (Ensure the file path is correct)
-            File file = new File("src/barking-large-and-small-dog-290711.wav");
+            File file = new File("src/sounds/dog-barking.wav");
             if (!file.exists()) {
                 System.out.println("Error: Sound file not found!");
                 return;

@@ -3,14 +3,15 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.io.File;
 
-public class Cat implements Animal {
+public class Chicken implements Animal{
+
     @Override
     public void makeSound() {
         try {
-            System.out.println("Loading the sound of a cat meowing.");
+            System.out.println("Loading the sound of a chicken.");
 
             // Load the .wav file (Ensure the file path is correct)
-            File file = new File("src/sounds/sounds-cat-meow.wav");
+            File file = new File("src/sounds/chicken-cluking.wav");
             if (!file.exists()) {
                 System.out.println("Error: Sound file not found!");
                 return;
@@ -25,7 +26,7 @@ public class Cat implements Animal {
 
             // Play the sound
             clip.start();
-            System.out.println("Cat is meowing...");
+            System.out.println("Chicken clucking...");
 
             // Keep the program running until the sound finishes
             Thread.sleep(clip.getMicrosecondLength() / 1000);
@@ -36,13 +37,5 @@ public class Cat implements Animal {
         } catch (Exception e) {
             System.out.println("Error occurred.");
         }
-    }
-
-    @Override
-    public void printImage() {
-        System.out.println(" _._     _,-'\"\"`-._");
-        System.out.println("(,-.`._,'(       |\\`-/|");
-        System.out.println("    `-.-' \\ )-`( , o o)");
-        System.out.println("          `-    \\`_`\"'-");
     }
 }

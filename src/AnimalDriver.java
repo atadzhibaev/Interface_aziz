@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Action {
+public class AnimalDriver {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String asnwer = new String();
@@ -8,7 +8,6 @@ public class Action {
         asnwer = scan.nextLine();
         if (asnwer.equals("yes")) {
             Animal charlie = new Dog();
-            charlie.printImage();
             charlie.makeSound();
         }
 
@@ -16,9 +15,14 @@ public class Action {
         asnwer = scan.nextLine();
         if (asnwer.equals("yes")) {
             Animal kuzzi = new Cat();
-            kuzzi.printImage();
             kuzzi.makeSound();
         }
-    }
 
+        System.out.print("Want to hear a chicken cluck (yes/no) ? ");
+        asnwer = scan.nextLine();
+        if (asnwer.equals("yes")) {
+            Animal chicken = new Chicken();
+            chicken.makeSound();
+        }
+    }
 }
