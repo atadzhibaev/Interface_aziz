@@ -5,20 +5,13 @@ import java.io.File;
 
 public class Chicken implements Animal{
 
-    String type = "";
-
-
-    public Chicken(String type) {
-        this.type = type;
-    }
-
     @Override
     public void makeSound() {
         try {
             System.out.println("Loading the sound of a chicken.");
 
             // Load the .wav file (Ensure the file path is correct)
-            File file = new File("src/sound-effect-cat-meow-279336.wav");
+            File file = new File("src/sounds/chicken-clucking.wav");
             if (!file.exists()) {
                 System.out.println("Error: Sound file not found!");
                 return;
