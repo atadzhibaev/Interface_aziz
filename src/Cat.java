@@ -38,11 +38,11 @@ public class Cat implements Animal {
         }
     }
 
-    @Override
-    public void printImage() {
-        System.out.println(" _._     _,-'\"\"`-._");
-        System.out.println("(,-.`._,'(       |\\`-/|");
-        System.out.println("    `-.-' \\ )-`( , o o)");
-        System.out.println("          `-    \\`_`\"'-");
-    }
+//    @Override
+//    public void printImage() {
+//        System.out.println(" _._     _,-'\"\"`-._");
+//        System.out.println("(,-.`._,'(       |\\`-/|");
+//        System.out.println("    `-.-' \\ )-`( , o o)");
+//        System.out.println("          `-    \\`_`\"'-");
+//    }
 }

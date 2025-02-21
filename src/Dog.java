@@ -36,11 +36,11 @@ public class Dog implements Animal {
             System.out.println("Error occurred.");
         }
     }
-    @Override
-    public void printImage() {
-        System.out.println("^..^      /");
-        System.out.println("/_/\\_____/");
-        System.out.println("   /\\   /\\");
-        System.out.println("  /  \\ /  \\");
-    }
+//    @Override
+//    public void printImage() {
+//        System.out.println("^..^      /");
+//        System.out.println("/_/\\_____/");
+//        System.out.println("   /\\   /\\");
+//        System.out.println("  /  \\ /  \\");
+//    }
 }
