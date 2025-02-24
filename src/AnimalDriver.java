@@ -4,9 +4,9 @@ public class AnimalDriver {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String asnwer = new String();
-        System.out.print("Want to hear a dog barking (yes/no) ? ");
+        System.out.print("Want to hear a dog barking (y/n) ? ");
         asnwer = scan.nextLine();
-        if (asnwer.equals("yes")) {
+        if (asnwer.equals("y")) {
             Animal charlie = new Dog();
             charlie.printImage();
             charlie.makeSound();
@@ -14,9 +14,9 @@ public class AnimalDriver {
             charlie.eat();
         }
 
-        System.out.print("Want to hear a cat meowing (yes/no) ? ");
+        System.out.print("Want to hear a cat meowing (y/n) ? ");
         asnwer = scan.nextLine();
-        if (asnwer.equals("yes")) {
+        if (asnwer.equals("y")) {
             Animal kuzzi = new Cat();
             kuzzi.printImage();
             kuzzi.makeSound();
@@ -24,9 +24,9 @@ public class AnimalDriver {
             kuzzi.eat();
         }
 
-        System.out.print("Want to hear a chicken cluck (yes/no) ? ");
+        System.out.print("Want to hear a chicken cluck (y/n) ? ");
         asnwer = scan.nextLine();
-        if (asnwer.equals("yes")) {
+        if (asnwer.equals("y")) {
             Animal chicken = new Chicken();
             chicken.printImage();
             chicken.makeSound();
