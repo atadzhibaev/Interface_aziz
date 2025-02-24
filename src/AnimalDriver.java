@@ -33,5 +33,15 @@ public class AnimalDriver {
             chicken.makeMove();
             chicken.eat();
         }
+
+        System.out.print("Want to hear a cow moo (yes/no) ? ");
+        asnwer = scan.nextLine();
+        if (asnwer.equals("yes")) {
+            Animal cow = new Cow();
+            cow.printImage();
+            cow.makeSound();
+            cow.makeMove();
+            cow.eat();
+        }
     }
 }
