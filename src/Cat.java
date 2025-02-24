@@ -10,7 +10,7 @@ public class Cat implements Animal {
             System.out.println("Loading the sound of a cat meowing.");
 
             // Load the .wav file (Ensure the file path is correct)
-            File file = new File("src/sounds/sounds-cat-meow.wav");
+            File file = new File("src/sounds/cat-meow.wav");
             if (!file.exists()) {
                 System.out.println("Error: Sound file not found!");
                 return;
