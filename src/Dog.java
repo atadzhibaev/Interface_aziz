@@ -48,4 +48,9 @@ public class Dog implements Animal {
     public void makeMove() {
         System.out.println("Your dog gives you a paw!");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("The dog is eating.");
+    }
 }
