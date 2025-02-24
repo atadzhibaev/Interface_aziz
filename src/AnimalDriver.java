@@ -11,6 +11,7 @@ public class AnimalDriver {
             charlie.printImage();
             charlie.makeSound();
             charlie.makeMove();
+            charlie.eat();
         }
 
         System.out.print("Want to hear a cat meowing (yes/no) ? ");
@@ -20,6 +21,7 @@ public class AnimalDriver {
             kuzzi.printImage();
             kuzzi.makeSound();
             kuzzi.makeMove();
+            kuzzi.eat();
         }
 
         System.out.print("Want to hear a chicken cluck (yes/no) ? ");
@@ -29,6 +31,7 @@ public class AnimalDriver {
             chicken.printImage();
             chicken.makeSound();
             chicken.makeMove();
+            chicken.eat();
         }
     }
 }

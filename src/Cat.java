@@ -50,4 +50,8 @@ public class Cat implements Animal {
     public void makeMove() {
         System.out.println("Your cat wants to cuddle:)");
     }
+
+    public void eat(){
+        System.out.println("The cat is eating.");
+    }
 }
