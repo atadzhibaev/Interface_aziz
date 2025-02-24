@@ -60,4 +60,9 @@ public class Hamster implements Animal {
     public void makeMove() {
         System.out.println("The hamster does a back-flip!");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("Hamster is eating.");
+    }
 }
