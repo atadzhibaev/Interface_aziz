@@ -34,6 +34,34 @@ public class AnimalDriver {
             chicken.eat();
         }
 
+        System.out.print("Want to hear a cow moo (yes/no) ? ");
+        asnwer = scan.nextLine();
+        if (asnwer.equals("yes")) {
+            Animal cow = new Cow();
+            cow.printImage();
+            cow.makeSound();
+            cow.makeMove();
+            cow.eat();
+
+            System.out.print("Want to hear a hamster squeak (y/n) ? ");
+            asnwer = scan.nextLine();
+            if (asnwer.equals("y")) {
+                Animal Hamster = new Hamster();
+                Hamster.printImage();
+                Hamster.makeSound();
+                Hamster.makeMove();
+                Hamster.eat();
+            }
+
+            System.out.print("Want to hear a goat bleat (y/n) ? ");
+            asnwer = scan.nextLine();
+            if (asnwer.equals("y")) {
+                Animal Goat = new Goat();
+                Goat.printImage();
+                Goat.makeSound();
+                Goat.makeMove();
+                Goat.eat();
+            }
         }
     }
 }
