@@ -33,5 +33,14 @@ public class AnimalDriver {
             chicken.makeMove();
             chicken.eat();
         }
+
+        System.out.print("Want to hear a hamster squeak (yes/no) ? ");
+        asnwer = scan.nextLine();
+        if (asnwer.equals("yes")) {
+            Animal Hamster = new Hamster();
+            Hamster.printImage();
+            Hamster.makeSound();
+            Hamster.makeMove();
+        }
     }
 }
